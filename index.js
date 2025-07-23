@@ -1,5 +1,5 @@
 import cors from "cors";
-//import "dotenv/config";
+import "dotenv/config";
 import express from "express";
 const app = express();
 // Se crea App como instancia de Express
