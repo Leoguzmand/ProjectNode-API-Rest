@@ -12,13 +12,14 @@ app.get("/", (req,res) => {
     res.json({ message: "API Rest con Node.js" })
 })
 
+// RUTAS
 import productsRouter from "./src/routes/products.routes.js";
 app.use("/api", productsRouter);
 
-/*
+// AUTENTICACION
 import authRouter from "./src/routes/auth.routes.js";
 app.use("/api/auth", authRouter);
-*/
+
 
 // Manejo de Error 404
 app.use((req,res,next) => {
