@@ -4,6 +4,8 @@
 
 API REST para gestión de productos desarrollada con Node.js y Express, usando una base de datos NoSQL alojada en Firebase.
 
+Realizado por Leonardo Guzmán Durán como proyecto final de Talento Tech en la especialización de Full Stack Developer con Node.js. Agencia de Habilidades para el futuro del Gobierno de la Ciudad de Buenos Aires, Argentina.
+
 ## Instalación
 
 1. Clonar el repositorio
