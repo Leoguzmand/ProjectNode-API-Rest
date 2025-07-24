@@ -28,6 +28,10 @@ Luego editar el archivo `.env` con los valores correspondientes para tu entorno.
 npm run dev
 ```
 
+## Despliegue en Vercel
+
+[Link del Proyecto en Vercel.app](https://project-node-api-rest.vercel.app/)
+
 ## Documentación de la API
 
 ### Obtener todos los productos
@@ -44,19 +48,6 @@ npm run dev
 ]
 ```
 
-[### Buscar productos por nombre
-
-- **GET** `/products/search?name=palabra`
-- **Descripción:** Devuelve los productos cuyo nombre contiene la palabra indicada.
-- **Parámetros:**
-  - `name` (query, requerido): texto a buscar en el nombre del producto.
-- **Ejemplo de uso:** `/products/search?name=camiseta`
-- **Respuesta ejemplo:**
-
-````json
-[{ "id": 1, "name": "Camiseta Deportiva", "price": 150 }]
-```]: #
-
 ### Obtener producto por ID
 
 - **GET** `/products/:id`
@@ -68,7 +59,7 @@ npm run dev
 
 ```json
 { "id": 1, "name": "Camiseta Deportiva", "price": 150 }
-````
+```
 
 ### Crear un producto
 
